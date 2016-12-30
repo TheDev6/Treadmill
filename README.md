@@ -24,3 +24,5 @@ var result = retry.Try(
 //I'm debating throwing the error, or aggregate error, when until conditions are not met by the last iteration. Thoughts?
             
 ```
+
+[Blog about this lib](http://www.achadwick.com/DeveloperBlog/Result/Treadmill-Retry)
