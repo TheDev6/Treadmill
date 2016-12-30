@@ -1,7 +1,13 @@
-# Treadmill
-A smiple retry library. It's just a fancy do while loop without the cognitive load of 'retry policies' that amount to nothing more than an exception type check.
+﻿namespace Treadmill.Tests
+{
+    using System;
+    using NUnit.Framework;
 
-```cs
+    public class Examples
+    {
+        [Test]
+        public void MainHappyPath()
+        {
             var retry = new Tread();
 
             //This tries until the exception is null, or 10 tries
@@ -22,5 +28,6 @@ A smiple retry library. It's just a fancy do while loop without the cognitive lo
 
             //Note: Some care should be taken to avoid swallowing errors with this code. There are hooks to log errors that shouldn't be ignored.
             //I'm debating throwing the error, or aggregate error, when until conditions are not met by the last iteration. Thoughts?
-            
-```
+        }
+    }
+}
