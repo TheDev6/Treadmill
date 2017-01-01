@@ -1,5 +1,5 @@
 # Treadmill
-A smiple retry library. It's just a fancy do while loop without the cognitive load of 'retry policies' that amount to nothing more than an exception type check.
+A smiple retry library. It's just a fancy do while loop without 'retry policies'.
 
 ```cs
 var retry = new Tread();
