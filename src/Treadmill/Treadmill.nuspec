@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TreadMill</id>
+    <version>1.0.1</version>
+    <title>Treadmill Retry</title>
+    <authors>TheDev6</authors>
+    <owners>Allan Chadwick</owners>
+    <projectUrl>http://www.achadwick.com/DeveloperBlog/Result/Treadmill-Retry</projectUrl>
+    <iconUrl>https://dev6.blob.core.windows.net/blog-images/tag-retry.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple .net retry library.</description>
+    <tags>Retry C# Transient Fault</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\Treadmill.dll" target="lib" />
+    <file src="bin\release\Treadmill.pdb" target="lib" />
+  </files>
+</package>
